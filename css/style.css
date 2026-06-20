@@ -1,0 +1,94 @@
+/* Import Lato from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap");
+
+:root {
+  --font-main: "Lato", sans-serif;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --fs-h1: 48px;
+  --fs-h2: 40px;
+  --fs-h3: 32px;
+  --fs-h4: 24px;
+  --fs-h5: 20px;
+  --fs-h6: 18px;
+
+  --fs-body-large: 18px;
+  --fs-body-medium: 16px;
+  --fs-body-small: 14px;
+  --fs-caption-1: 12px;
+  --fs-caption-2: 10px;
+
+  /* Main Primary */
+  --color-primary-default: rgb(50, 84, 255);
+  --color-primary-100: rgb(36, 63, 219);
+  --color-primary-200: rgb(25, 45, 183);
+  --color-primary-300: rgb(15, 30, 147);
+  --color-primary-400: rgb(9, 20, 122);
+
+  /* Text Colors */
+  --text-dark-primary: rgba(58, 53, 65, 0.871);
+  --text-dark-secondary: rgba(58, 53, 65, 0.678);
+  --text-dark-disabled: #3a354161;
+
+  --text-light-primary: rgba(231, 227, 252, 0.871);
+  --text-light-secondary: rgba(231, 227, 252, 0.678);
+  --text-light-disabled: rgba(231, 227, 252, 0.38);
+
+  /* Others */
+  --bg-paper: rgb(34, 40, 42);
+  --bg-body: rgb(47, 51, 52);
+  --bg-page-header: rgb(24, 26, 28);
+  --bg-extra: rgb(61, 65, 66);
+  --border-outline: rgba(231, 227, 252, 0.231);
+  --border-input: rgba(231, 227, 252, 0.22);
+  --bg-input-field: rgba(231, 227, 252, 0.039);
+  --bg-chip: rgba(231, 227, 252, 0.078);
+
+  /* Info */
+  --color-info-default: rgb(5, 134, 255);
+  --color-info-hover: rgb(3, 103, 219);
+  --color-info-pressed: rgb(2, 77, 183);
+  --color-info-bg: rgba(205, 241, 255, 0.302);
+
+  /* Success */
+  --color-success-default: rgb(159, 224, 74);
+  --color-success-hover: rgb(126, 192, 54);
+  --color-success-pressed: rgb(96, 161, 37);
+  --color-success-bg: rgba(244, 253, 219, 0.8);
+
+  /* Warning */
+  --color-warning-default: rgb(255, 231, 15);
+  --color-warning-hover: rgb(219, 196, 10);
+  --color-warning-pressed: rgb(183, 162, 7);
+  --color-warning-bg: rgba(255, 252, 207, 0.8);
+
+  /* Error (Red) */
+  --color-error-default: rgb(255, 91, 58);
+  --color-error-hover: rgb(219, 58, 42);
+  --color-error-pressed: rgb(183, 31, 29);
+  --color-error-bg: rgba(255, 234, 215, 0.502);
+
+  /* --- Greyscale --- */
+  --grey-900: #212121;
+  --grey-800: #424242;
+  --grey-700: #616161;
+  --grey-600: #757575;
+  --grey-500: #9e9e9e;
+  --grey-400: #bdbdbd;
+  --grey-300: #e0e0e0;
+  --grey-200: #eeeeee;
+  --grey-100: #f5f5f5;
+  --grey-50: #fafafa;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
