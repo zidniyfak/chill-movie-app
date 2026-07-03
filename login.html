@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Chill Movie</title>
+    <link
+      rel="shortcut icon"
+      href="assets/icons/ic-chill.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/components/form.css" />
+    <link rel="stylesheet" href="css/pages/auth.css" />
+  </head>
+  <body>
+    <main class="auth__layout auth__layout--login">
+      <section class="auth__card">
+        <header class="auth__header">
+          <img
+            src="assets/brand/logo.png"
+            alt="CHILL Logo"
+            class="auth__logo"
+          />
+          <h1 class="auth__title">Masuk</h1>
+          <p class="auth__subtitle">Selamat datang kembali!</p>
+        </header>
+        <form action="" class="auth__form">
+          <div class="form__group">
+            <label for="login-username" class="form__label">Username</label>
+            <input
+              id="login-username"
+              class="form__input"
+              type="text"
+              name="username"
+              placeholder="Masukkan username"
+              required
+            />
+          </div>
+          <div class="form__group">
+            <label for="login-password" class="form__label">Kata Sandi</label>
+            <div class="form__password-wrapper">
+              <input
+                id="login-password"
+                class="form__input"
+                type="password"
+                name="password"
+                placeholder="Masukkan kata sandi"
+                required
+              />
+              <button
+                type="button"
+                id="btnTogglePassword"
+                class="form__toggle-password"
+                aria-label="Tampilkan kata sandi"
+              >
+                <svg
+                  id="icon-eye"
+                  class="form__toggle-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path d="M10 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+                  <path
+                    fill-rule="evenodd"
+                    d="M.664 10.59a1.651 1.651 0 0 1 0-1.186A10.004 10.004 0 0 1 10 3c4.257 0 7.893 2.66 9.336 6.41.147.381.146.804 0 1.186A10.004 10.004 0 0 1 10 17c-4.257 0-7.893-2.66-9.336-6.41ZM14 10a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="auth__option">
+              <span class="auth__option-text">
+                Belum punya akun?
+                <a href="register.html" class="auth__link">Daftar</a>
+              </span>
+              <a href="#">Lupa kata sandi?</a>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn--login">Masuk</button>
+        </form>
+
+        <div class="auth__divider">
+          <span>Atau</span>
+        </div>
+
+        <a href="#" class="btn btn--google">
+          <img
+            src="assets/icons/ic-google.svg"
+            alt=""
+            aria-hidden="true"
+            class="btn__google-icon"
+          />Masuk dengan Google</a
+        >
+      </section>
+    </main>
+  </body>
+</html>

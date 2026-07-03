@@ -1,0 +1,140 @@
+.auth__layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.auth__layout--login {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../assets/backgrounds/bg-login.webp);
+}
+
+.auth__card {
+  width: 100%;
+  max-width: 85vw;
+  padding: 24px;
+  background-color: rgba(24, 26, 28, 0.839);
+  border-radius: 8px;
+}
+
+.auth__header {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.auth__logo {
+  width: 94px;
+  margin-bottom: 20px;
+}
+
+.auth__title {
+  margin-bottom: 5px;
+  font-size: var(--fs-h6);
+  font-weight: var(--fw-bold);
+}
+
+.auth__subtitle {
+  color: var(--text-light-primary);
+}
+
+.auth__option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.auth__option-text {
+  color: var(--text-light-secondary);
+}
+
+.auth__link {
+  font-weight: var(--fw-medium);
+}
+
+.btn {
+  width: 100%;
+  height: 30px;
+  border: 0.58px solid var(--border-outline);
+  border-radius: 14px;
+  color: var(--text-light-primary);
+  font-size: 10px;
+  font-weight: var(--fw-semibold);
+  text-align: center;
+}
+
+.btn--login {
+  background-color: var(--bg-extra);
+}
+
+.auth__divider {
+  margin-block: 4px;
+  color: var(--text-light-disabled);
+  font-size: var(--fs-caption-2);
+  font-weight: var(--fw-medium);
+  text-align: center;
+}
+
+.btn--google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid var(--border-outline);
+}
+
+.btn__google-icon {
+  transform: translateY(-1px);
+}
+
+@media (min-width: 768px) {
+  .auth__card {
+    max-width: 35vw;
+    padding: 40px;
+    border-radius: 16px;
+  }
+
+  .auth__logo {
+    width: 163px;
+    margin-bottom: 37px;
+  }
+
+  .auth__title {
+    line-height: 1.1;
+    margin-bottom: 8px;
+    font-size: 32px;
+  }
+
+  .auth__subtitle {
+    font-size: 16px;
+  }
+
+  .auth__option {
+    margin-top: 12px;
+  }
+
+  .auth__link {
+    font-size: var(--fs-body-medium);
+  }
+
+  .btn {
+    height: 50px;
+    border-radius: 25px;
+    font-size: var(--fs-body-medium);
+  }
+
+  .auth__divider {
+    margin-block: 8px;
+    font-size: var(--fs-body-medium);
+  }
+
+  .btn__google-icon {
+    width: 18px;
+  }
+}
