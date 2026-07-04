@@ -14,6 +14,12 @@
     url(../../assets/backgrounds/bg-login.webp);
 }
 
+.auth__layout--register {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../assets/backgrounds/bg-register.webp);
+}
+
 .auth__card {
   width: clamp(306px, 85%, 529px);
   display: flex;
