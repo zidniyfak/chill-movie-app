@@ -1,0 +1,594 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chill Movie - Platform nonton film dan series terpopuler secara online dengan kualitas Full HD."
+    />
+    <title>Chill Movie - Nonton Film Full HD</title>
+    <link
+      rel="shortcut icon"
+      href="assets/brand/logo-icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/pages/home.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__navigation">
+        <a href="#" class="navbar__brand">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="assets/brand/logo-full.png"
+            />
+            <img
+              src="assets/brand/logo-icon.png"
+              alt="CHILL Logo"
+              class="navbar__logo"
+              srcset=""
+            />
+          </picture>
+        </a>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Series</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Film</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">Daftar Saya</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar__actions">
+        <img
+          src="assets/icons/avatar-profile.png"
+          alt="Profile"
+          class="navbar__avatar"
+        />
+        <svg
+          class="navbar__dropdown-icon"
+          width="8"
+          height="5"
+          viewBox="0 0 8 5"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.94 0L4 3.05333L7.06 0L8 0.94L4 4.94L0 0.94L0.94 0Z"
+            fill="white"
+          />
+        </svg>
+
+        <div class="navbar__dropdown">
+          <ul class="navbar__dropdown-list">
+            <li class="navbar__dropdown-item">
+              <a href="#" class="navbar__dropdown-link">Profil Saya</a>
+            </li>
+            <li class="navbar__dropdown-item">
+              <a href="#" class="navbar__dropdown-link">Ubah Premium</a>
+            </li>
+            <li class="navbar__dropdown-item">
+              <a
+                href="#"
+                class="navbar__dropdown-link navbar__dropdown-link--danger"
+                >Keluar</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <section class="hero">
+        <div class="hero__media">
+          <img
+            class="hero__media-asset"
+            src="assets/posters/hero-spiderman-brand.jpg"
+            alt="Spiderman: Brand New Day"
+          />
+        </div>
+        <div class="hero__content">
+          <h1 class="hero__title">Spider-man: Brand New Day</h1>
+          <p class="hero__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            exercitationem architecto tenetur, ea cupiditate ipsum a odit porro
+            molestiae et dolor eos distinctio aut culpa iste itaque vero nostrum
+          </p>
+          <div class="hero__actions">
+            <div class="hero__actions-group">
+              <button type="button" id="btn-play-hero" class="btn btn--primary">
+                Mulai
+              </button>
+              <a href="#" id="btn-more-hero" class="btn btn--secondary">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="ic--info"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+                  />
+                </svg>
+                Selengkapnya
+              </a>
+              <span class="btn badge--rating">18+</span>
+            </div>
+            <button
+              type="button"
+              id="btn-mute-hero"
+              class="btn--mute"
+              aria-label="Mute"
+            >
+              <img src="assets/icons/ic-mute.svg" alt="" class="btn__icon" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <div class="movie-catalog">
+        <section class="movie-section">
+          <h2 class="movie-section__title">Melanjutkan Tonton Film</h2>
+          <div class="movie-section__slider-wrapper">
+            <button
+              type="button"
+              class="movie-section__arrow movie-section__arrow--left"
+              aria-label="Scroll left"
+            >
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+              </svg>
+            </button>
+            <div class="movie-section__list">
+              <a href="#" class="movie-card movie-card--landscape">
+                <img
+                  src="assets/posters/a-man-called-otto-landscape.webp"
+                  alt="A Man Called Otto"
+                  class="movie-card__image"
+                />
+                <div class="movie-card__overlay">
+                  <h3 class="movie-card__title">A Man Called Otto</h3>
+                  <div class="movie-card__rating">
+                    <svg
+                      class="movie-card__star-icon"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <span>4.5/5</span>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="movie-card movie-card--landscape">
+                <img
+                  src="assets/posters/ant-man-landscape.webp"
+                  alt="Ant Man"
+                  class="movie-card__image"
+                />
+                <div class="movie-card__overlay">
+                  <h3 class="movie-card__title">
+                    Ant-Man and the Wasp: Quantumania
+                  </h3>
+                  <div class="movie-card__rating">
+                    <svg
+                      class="movie-card__star-icon"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <span>4.8/5</span>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="movie-card movie-card--landscape">
+                <img
+                  src="assets/posters/avatar-landscape.webp"
+                  alt="Avatar"
+                  class="movie-card__image"
+                />
+                <div class="movie-card__overlay">
+                  <h3 class="movie-card__title">Avatar: The Way of Water</h3>
+                  <div class="movie-card__rating">
+                    <svg
+                      class="movie-card__star-icon"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <span>4.9/5</span>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="movie-card movie-card--landscape">
+                <img
+                  src="assets/posters/batman-landscape.webp"
+                  alt="Batman"
+                  class="movie-card__image"
+                />
+                <div class="movie-card__overlay">
+                  <h3 class="movie-card__title">The Batman</h3>
+                  <div class="movie-card__rating">
+                    <svg
+                      class="movie-card__star-icon"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <span>4.7/5</span>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="movie-card movie-card--landscape">
+                <img
+                  src="assets/posters/baymax-landscape.webp"
+                  alt="Baymax"
+                  class="movie-card__image"
+                />
+                <div class="movie-card__overlay">
+                  <h3 class="movie-card__title">Baymax!</h3>
+                  <div class="movie-card__rating">
+                    <svg
+                      class="movie-card__star-icon"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                    </svg>
+                    <span>4.6/5</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <button
+              type="button"
+              class="movie-section__arrow movie-section__arrow--right"
+              aria-label="Scroll right"
+            >
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+              </svg>
+            </button>
+          </div>
+        </section>
+
+        <section class="movie-section">
+          <h2 class="movie-section__title">
+            Top Rating Film dan Series Hari Ini
+          </h2>
+          <div class="movie-section__slider-wrapper">
+            <button
+              type="button"
+              class="movie-section__arrow movie-section__arrow--left"
+              aria-label="Scroll left"
+            >
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+              </svg>
+            </button>
+            <div class="movie-section__list list--potrait">
+              <a href="#" class="movie-card movie-card--portrait">
+                <span class="movie-card__badge movie-card__badge--top10"
+                  >Top<br />10</span
+                >
+                <img
+                  src="assets/posters/a-man-called-otto-potrait.webp"
+                  alt="A Man Called Otto"
+                  class="movie-card__image"
+                />
+              </a>
+              <a href="#" class="movie-card movie-card--portrait">
+                <img
+                  src="assets/posters/ant-man-potrait.webp"
+                  alt="Ant Man"
+                  class="movie-card__image"
+                />
+              </a>
+              <a href="#" class="movie-card movie-card--portrait">
+                <span class="movie-card__badge movie-card__badge--new-episode"
+                  >Episode Baru</span
+                >
+                <img
+                  src="assets/posters/avatar-potrait.webp"
+                  alt="Avatar"
+                  class="movie-card__image"
+                />
+              </a>
+              <a href="#" class="movie-card movie-card--portrait">
+                <span class="movie-card__badge movie-card__badge--top10"
+                  >Top<br />10</span
+                >
+                <img
+                  src="assets/posters/batman-potrait.webp"
+                  alt="Batman"
+                  class="movie-card__image"
+                />
+              </a>
+              <a href="#" class="movie-card movie-card--portrait">
+                <img
+                  src="assets/posters/baymax-potrait.webp"
+                  alt="Baymax"
+                  class="movie-card__image"
+                />
+              </a>
+            </div>
+            <button
+              type="button"
+              class="movie-section__arrow movie-section__arrow--right"
+              aria-label="Scroll right"
+            >
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+              </svg>
+            </button>
+          </div>
+        </section>
+
+        <section class="movie-section">
+          <h2 class="movie-section__title">Film Trending</h2>
+          <div class="movie-section__slider-wrapper">
+            <button
+              type="button"
+              class="movie-section__arrow movie-section__arrow--left"
+              aria-label="Scroll left"
+            >
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+              </svg>
+            </button>
+            <div class="movie-section__list">
+              <a href="#" class="movie-card movie-card--portrait">
+                <span class="movie-card__badge movie-card__badge--top10"
+                  >Top<br />10</span
+                >
+                <img
+                  src="assets/posters/black-adam-potrait.webp"
+                  alt="Black Adam"
+                  class="movie-card__image"
+                />
+              </a>
+              <a href="#" class="movie-card movie-card--portrait">
+                <span class="movie-card__badge movie-card__badge--top10"
+                  >Top<br />10</span
+                >
+                <img
+                  src="assets/posters/bluelock-potrait.webp"
+                  alt="Blue Lock"
+                  class="movie-card__image"
+                />
+              </a>
+              <a href="#" class="movie-card movie-card--portrait">
+                <span class="movie-card__badge movie-card__badge--top10"
+                  >Top<br />10</span
+                >
+                <img
+                  src="assets/posters/dilan-potrait.webp"
+                  alt="Dilan"
+                  class="movie-card__image"
+                />
+              </a>
+              <a href="#" class="movie-card movie-card--portrait">
+                <span class="movie-card__badge movie-card__badge--top10"
+                  >Top<br />10</span
+                >
+                <img
+                  src="assets/posters/fast-x-potrait.webp"
+                  alt="Fast X"
+                  class="movie-card__image"
+                />
+              </a>
+              <a href="#" class="movie-card movie-card--portrait">
+                <span class="movie-card__badge movie-card__badge--top10"
+                  >Top<br />10</span
+                >
+                <img
+                  src="assets/posters/guardians-of-the-galaxy-potrait.webp"
+                  alt="Guardians of the Galaxy"
+                  class="movie-card__image"
+                />
+              </a>
+            </div>
+            <button
+              type="button"
+              class="movie-section__arrow movie-section__arrow--right"
+              aria-label="Scroll right"
+            >
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+              </svg>
+            </button>
+          </div>
+        </section>
+
+        <section class="movie-section">
+          <h2 class="movie-section__title">Rilis Baru</h2>
+          <div class="movie-section__slider-wrapper">
+            <button
+              type="button"
+              class="movie-section__arrow movie-section__arrow--left"
+              aria-label="Scroll left"
+            >
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+              </svg>
+            </button>
+            <div class="movie-section__list">
+              <a href="#" class="movie-card movie-card--portrait">
+                <span class="movie-card__badge movie-card__badge--new-episode"
+                  >Episode Baru</span
+                >
+                <img
+                  src="assets/posters/little-mermaid-potrait.webp"
+                  alt="Little Mermaid"
+                  class="movie-card__image"
+                />
+              </a>
+              <a href="#" class="movie-card movie-card--portrait">
+                <img
+                  src="assets/posters/megan-potrait.webp"
+                  alt="Megan"
+                  class="movie-card__image"
+                />
+              </a>
+              <a href="#" class="movie-card movie-card--portrait">
+                <span class="movie-card__badge movie-card__badge--top10"
+                  >Top<br />10</span
+                >
+                <img
+                  src="assets/posters/missing-potrait.webp"
+                  alt="Missing"
+                  class="movie-card__image"
+                />
+              </a>
+              <a href="#" class="movie-card movie-card--portrait">
+                <img
+                  src="assets/posters/sonic-the-hedgehog-2-potrait.webp"
+                  alt="Sonic The Hedgehog 2"
+                  class="movie-card__image"
+                />
+              </a>
+              <a href="#" class="movie-card movie-card--portrait">
+                <span class="movie-card__badge movie-card__badge--new-episode"
+                  >Episode Baru</span
+                >
+                <img
+                  src="assets/posters/spiderman-across-the-spiderverse-potrait.webp"
+                  alt="Spiderman: Across the Spiderverse"
+                  class="movie-card__image"
+                />
+              </a>
+            </div>
+            <button
+              type="button"
+              class="movie-section__arrow movie-section__arrow--right"
+              aria-label="Scroll right"
+            >
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+              </svg>
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <section class="footer__brands">
+          <img src="assets/brand/logo-full.png" alt="CHILL Logo" />
+          <p>&copy;2023 Chill All Right Reserved.</p>
+        </section>
+      </div>
+      <section class="footer__genres">
+        <h5 class="footer__title">Genre</h5>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">Aksi</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Anak-anak</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Anime</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Britania</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Drama</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Fantasi Ilmiah & Fantasi</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Kejahatan</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">K-Drama</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Komedi</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Petualangan</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Perang</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Romantis</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Sains & Alam</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Thriller</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="footer__help">
+        <h5 class="footer__title">Bantuan</h5>
+        <ul class="footer__list">
+          <li class="footer__item"><a href="#" class="footer__link">FAQ</a></li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Kontak Kami</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Privasi</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Syarat & Ketentuan</a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+
+    <script>
+      document.querySelectorAll(".movie-section").forEach((section) => {
+        const list = section.querySelector(".movie-section__list");
+        const leftArrow = section.querySelector(".movie-section__arrow--left");
+        const rightArrow = section.querySelector(
+          ".movie-section__arrow--right",
+        );
+
+        if (list && leftArrow && rightArrow) {
+          leftArrow.addEventListener("click", () => {
+            list.scrollBy({
+              left: -list.clientWidth * 0.7,
+              behavior: "smooth",
+            });
+          });
+          rightArrow.addEventListener("click", () => {
+            list.scrollBy({ left: list.clientWidth * 0.7, behavior: "smooth" });
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
